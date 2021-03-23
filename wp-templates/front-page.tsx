@@ -120,8 +120,8 @@ export default function FrontPage(props: any): JSX.Element {
         </section>
         <Posts
           posts={posts?.nodes}
-          heading="Latest Posts"
-          intro="The Posts component in wp-templates/front-page.tsx shows the latest six posts from the connected WordPress site."
+          heading="WP Engine and the JAMstack"
+          intro="Checkout my latest posts on Headless WordPress"
           headingLevel="h2"
           postTitleLevel="h3"
           id={styles.post_list}
